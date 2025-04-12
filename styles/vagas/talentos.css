@@ -1,0 +1,17 @@
+
+.conteudo__texto__vagas{
+    font-size: 14px;
+    color: var(--vermelho-escuro);
+    background-color: #8E24240D;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.conteudo__subtitulo{
+    color: var(--azul);
+    font-size: 36px;
+    font-weight: 600;
+}
+.photo__reuniao{
+    width: 80%;
+    margin: 0 10%;
+}

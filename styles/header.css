@@ -1,0 +1,40 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 25vh;
+    align-items: center;
+}
+.logo{
+    padding-right: 5em;
+}
+.cabecalho__menu{
+    margin-right: auto;
+}
+.lista__menu{
+    display: flex;
+}
+.lista__menu__item{
+    padding: 1em;
+}
+.lista__menu__link{
+    text-decoration: none;
+    color: var(--cinza500);
+    font-size: 16px;
+}
+.botoes{
+    padding: 0.5em;
+}
+.botao__singin, .botao__singup{
+    text-decoration: none;
+    padding: 1em 1.5em;
+    color: var(--cinza500);
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+}
+.botao__singup{
+    background: var(--vermelho-escuro);
+    color: var(--branco);
+    font-family: "Inter";
+    border-radius: 15px;
+}

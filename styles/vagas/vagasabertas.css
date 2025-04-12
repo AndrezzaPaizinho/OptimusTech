@@ -1,0 +1,45 @@
+.vagas__abertas{
+    display: flex;
+    flex-direction: column;
+    padding: 6em 0;
+    gap: 4em;
+}
+.vagas__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0 25%;
+    width: 50%;
+}
+.vaga__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.card__conteudo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAECF0;
+    border-radius: 1em;
+    padding: 2em;
+    gap: 24px;
+}
+.job__post__detalhes{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.vaga__area, .job__post{
+    font-weight: 500;
+    color: var(--azul);
+}
+.vaga__area{
+    font-size: 20px;
+}
+.job__post{
+    font-size: 18px;
+}
+.job__post__detalhes{
+    font-size: 16px;
+    font-weight: 500;
+}
